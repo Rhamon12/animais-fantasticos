@@ -29,3 +29,5 @@ initFuncionamento();
 initFetchAnimais();
 initFetchBitcoin();
 initAnimacaoScroll();
+
+alert('TESTANDO')
