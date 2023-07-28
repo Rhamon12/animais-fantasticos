@@ -16,7 +16,6 @@ body {
   background: #faf6ed;
   color: #222;
   -webkit-font-smoothing: antialiased;
-
 }
 
 .grid-container {
@@ -293,30 +292,24 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
-[data-semana].aberto::after {
+[data-semana]::after {
   display: inline-block;
-  content: "";
-  width: 8px;
-  height: 8px;
-  margin-left: 10px;
-  border: 2px solid black;
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: #E54;
   border-radius: 50%;
-  background: rgb(7, 238, 7);
+  margin-left: 4px;
+  border: 2px solid #000;
 }
-[data-semana].fechado::after {
-  display: inline-block;
-  content: "";
-  width: 8px;
-  height: 8px;
-  margin-left: 10px;
-  border: 2px solid black;
-  border-radius: 50%;
-  background: rgb(223, 7, 7);
+
+[data-semana].aberto::after {
+  background: #3F4;
 }
 
 .btc-preco {
-  background: rgb(7, 238, 7);
+  background: #3F4;
   padding: .2rem .5rem;
   font-weight: bold;
-  border-radius: 2px;
+  border-radius: 2px;  
 }
